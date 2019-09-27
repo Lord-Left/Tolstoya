@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Lusitana');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic');
+        .borderBox{
+            border: solid;
+            border-width: 1px;
+            border-color:black;
+            border-radius: 1px;
+            border-style: solid
+        }
+        .borderBoxAdmin{
+            border: solid;
+            border-width: 5px;
+            border-color:coral;
+            border-radius: 5px;
+        }
+        .botBorder {
+            border-bottom: 2px cornflowerblue solid;
+            width: 77%;
+        }
+        .botBorderBlog {
+            border-bottom: 2px cornflowerblue solid;
+            width: 90%;
+        }
+        .dotBorder {
+            border-style: dotted;
+            border-width: 2px;
+            border-radius: 2px;
+            border-color: coral
+        }
+        .inconsolataFont {
+            font-family: 'Inconsolata', san-serif;
+        }
+        .inconsolataFontCart {
+            font-family: 'Inconsolata', san-serif;
+            font-size: 16px;
+        }
+        .titleBarFontFam {
+            font-family: 'Libre Baskerville', serif;
+        }
+        .lusFont {
+            font-family: 'Lusitana', serif;
+        }
+        .bitFont {
+            font-family: 'Bitter', serif;
+        }
+        .genFont {
+            font-family: 'Gentium Basic', serif;
+        }
+        .lightMarg {
+            margin: 5%;
+        }
+        .tinyMarg {
+            margin: 2%;
+        }
+        .microMarg {
+            margin: 1%;
+        }
+        .fixedSetting {
+            position: fixed;
+            width: 25%;
+        }
+        .biggerFont {
+            font-size: 16px;
+        }
+        .evenBiggerFont {
+            font-size: 18px;
+        }
+        .titleBarFont {
+            font-size: 25px;
+        }
+        .bigAssFont {
+            font-size: 28px;
+        }
+        .orFont {
+            font-size: 35px;
+            font-style: italic;
+        }
+        .ital {
+            font-style: italic;
+        }
+        .noWrap {
+            white-space: nowrap
+        }
+        .centerVert {
+            align-items: center;
+        }
+        .centerHort {
+            justify-content: center;
+        }
+        .vertical-center {
+          min-height: 100vh; /* These two lines are counted as one :-)       */
+          min-width: 100vh;
+
+          display: flex;
+          align-items: center;
+        }
+        .vertical-center-blog {
+            min-height: 75vh; /* These two lines are counted as one :-)       */
+            min-width: 75vh;
+  
+            display: flex;
+            align-items: center;
+        }
+        .scaleDown {
+            height: 100%;
+            width: 120%;
+        }
+        .centerContent {
+            justify-content: center;
+        }
+        .tinyPad {
+            padding: 100px;
+        }
+        .tinyPadRight {
+            padding-left: 100px;
+        }
+        a.titleLink:link {
+            color: black;
+            text-decoration: none;
+        }
+        a.titleLink:visited {
+            color: black;
+            text-decoration: none;
+        }
+        a.titleLink:hover {
+            color: cornflowerblue;
+            text-decoration: none;
+        }
+        a.titleLink:active {
+            color: black;
+            text-decoration: none;
+        }
+        .coralColor {
+            color: crimson;
+        }
+        
+          
+
+          
+          
